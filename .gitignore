@@ -1,0 +1,20 @@
+# Deno standard ignores
+.DS_Store
+*.log
+*.tsbuildinfo
+node_modules/
+dist/
+coverage/
+.env
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Deno cache
+deno.lock
+deno_dir/
+.cache/
+
+# Ignore test project
+test-proj/
